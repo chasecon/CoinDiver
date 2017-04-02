@@ -153,7 +153,7 @@ void Engine::play() {
       }
 
 
-
+}
     ticks = clock.getElapsedTicks();
     if ( ticks > 0 ) {
 
@@ -166,7 +166,8 @@ void Engine::play() {
             showHud=false;
           }
         }
-         if (keystate[SDL_SCANCODE_F1]) {
+
+        if (keystate[SDL_SCANCODE_F1]) {
           showHud = true;
           hudTicks=0;
         }
@@ -201,4 +202,4 @@ void Engine::play() {
     }
   }
 }
-}
+
