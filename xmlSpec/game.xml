@@ -1,0 +1,181 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Malloy: Coin Diver Extraordinaire</screenTitle>
+<title>Malloy: Coin Diver Extraordinaire</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>caconkl</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>960</height>
+</world>
+
+<back>
+  <file>images/checkerboard.bmp</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<a>
+  <file>images/a.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</a>
+
+<b>
+  <file>images/b.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</b>
+
+<c>
+  <file>images/c.png</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</c>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+<spinstar>
+  <file>images/spinstar.png</file>
+  <startLoc x="200" y="200"/>
+  <frames>4</frames>
+  <frameInterval>20</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</spinstar>
+
+<diver>
+  <file>images/diver2.png</file>
+  <startLoc x="300" y="300"/>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</diver>
+
+<diverLeft>
+  <file>images/diver2Left.png</file>
+  <startLoc x="300" y="300"/>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</diverLeft>
+
+<coin>
+  <file>images/coins2.png</file>
+  <startLoc x="80" y="80"/>
+  <frames>7</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</coin>
+
+<malloy>
+  <file>images/malloy.png</file>
+  <startLoc x="160" y="800"/>
+  <frames>3</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</malloy>
+
+<fish>
+  <file>images/fish.png</file>
+  <startLoc x="400" y="400"/>
+  <frames>6</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</fish>
+
+<fishLeft>
+  <file>images/fishLeft.png</file>
+  <startLoc x="400" y="400"/>
+  <frames>6</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</fishLeft>
+
+<tuna>
+  <file>images/tuna.png</file>
+  <startLoc x="200" y="200"/>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</tuna>
+
+<tunaLeft>
+  <file>images/tunaLeft.png</file>
+  <startLoc x="200" y="200"/>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</tunaLeft>
+
+<malloyLeft>
+  <file>images/malloyLeft.png</file>
+  <startLoc x="160" y="800"/>
+  <frames>3</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</malloyLeft>
+
+<star>
+  <file>images/yellowstar32.png</file>
+  <startLoc x="10" y="10"/>
+  <speedX>-175</speedX>
+  <speedY>-175</speedY>
+  <transparency>true</transparency>
+</star>
+
+<greenorb>
+  <file>images/greenball.bmp</file>
+  <startLoc x="320" y="240"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</greenorb>
+
+<hud>
+  <startLoc x="15" y="60"/>
+  <width>200</width>
+  <height>140</height>
+  <transparency>true</transparency>
+</hud>
+
+</GameData>
