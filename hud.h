@@ -15,6 +15,8 @@ public:
   Hud(const std::string&);
   Hud(const Hud&);
   ~Hud();
+  Hud& operator=(const Hud&);
+
 
   virtual void draw() const;
 
