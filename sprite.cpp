@@ -8,7 +8,8 @@ Sprite::Sprite(const std::string& name) :
            Vector2f(Gamedata::getInstance().getXmlInt(name+"/startLoc/x"), 
                     Gamedata::getInstance().getXmlInt(name+"/startLoc/y")), 
            Vector2f(Gamedata::getInstance().getXmlInt(name+"/speedX"), 
-                    Gamedata::getInstance().getXmlInt(name+"/speedY")) 
+                    Gamedata::getInstance().getXmlInt(name+"/speedY")),
+           1.0 
            ),
   frame( RenderContext::getInstance()->getFrame(name) ),
   worldWidth(Gamedata::getInstance().getXmlInt("world/width")),

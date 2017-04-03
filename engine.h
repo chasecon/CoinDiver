@@ -30,6 +30,9 @@ private:
   Viewport& viewport;
 
   std::vector<Drawable*> sprites;
+  std::vector<Drawable*> spritesBack;
+  std::vector<Drawable*> spritesMiddle;
+  std::vector<Drawable*> spritesFront;
 
   int currentSprite;
   bool makeVideo;

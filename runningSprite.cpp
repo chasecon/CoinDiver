@@ -15,7 +15,8 @@ RunningSprite::RunningSprite( const std::string& name) :
            Vector2f(Gamedata::getInstance().getXmlInt(name+"/startLoc/x"), 
                     Gamedata::getInstance().getXmlInt(name+"/startLoc/y")), 
            Vector2f(Gamedata::getInstance().getXmlInt(name+"/speedX"),
-                    Gamedata::getInstance().getXmlInt(name+"/speedY"))
+                    Gamedata::getInstance().getXmlInt(name+"/speedY")),
+           1.0
            ),
   frames( RenderContext::getInstance()->getFrames(name) ),
 
@@ -43,7 +44,7 @@ RunningSprite::RunningSprite(const RunningSprite& s) :
   { }
 
 void RunningSprite::draw() const { 
-  frames[currentFrame]->draw(getX(), getY());
+  frames[currentFrame]->draw(getX(), getY(),getScale());
 }
 
 

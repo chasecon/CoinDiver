@@ -10,8 +10,16 @@ void RunningTurningMultiSprite::advanceFrame(Uint32 ticks) {
 	}
 }
 */
+
+
 Player::Player( const std::string& name) :  
 TurningMultiSprite(name),
+  xPressed(false),
+  yPressed(false),
+  initVelocity(getVelocity()) {}
+
+Player::Player( const std::string& name, float vScale) :  
+TurningMultiSprite(name,vScale),
   xPressed(false),
   yPressed(false),
   initVelocity(getVelocity()) {}
@@ -27,7 +35,7 @@ void RunningTurningMultiSprite::draw() const {
 }
 */
 void Player::draw() const { 
-  frames[currentFrame]->draw(getX(), getY());
+  frames[currentFrame]->draw(getX(), getY(),getScale());
 }
 
 
@@ -58,7 +66,7 @@ if(getX()>0){
 
 void Player::up(){
 yPressed=true;
-if(getY() > 0){
+if(getY() > 100){
   setVelocityY(-initVelocity[1]);
 }
 }

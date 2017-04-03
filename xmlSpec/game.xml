@@ -4,12 +4,16 @@
      So make sure to include your name as part of the screenTitle -->
 <screenTitle>Malloy: Coin Diver Extraordinaire</screenTitle>
 <title>Malloy: Coin Diver Extraordinaire</title>
+<name>Chase Conklin</name>
 <maxStringSize>50</maxStringSize>
 
 <frameCapOn>true</frameCapOn>
 <period>17</period>
+<numBack>20</numBack>
+<numMiddle>20</numMiddle>
+<numFront>20</numFront>
 
-<maxFrames>300</maxFrames>
+<maxFrames>500</maxFrames>
 <username>caconkl</username>
 
 <view>
@@ -55,15 +59,6 @@
   <alpha>0</alpha>
 </font>
 
-<spinstar>
-  <file>images/spinstar.png</file>
-  <startLoc x="200" y="200"/>
-  <frames>4</frames>
-  <frameInterval>20</frameInterval>
-  <speedX>-200</speedX>
-  <speedY>200</speedY>
-  <transparency>true</transparency>
-</spinstar>
 
 <diver>
   <file>images/diver2.png</file>
@@ -95,6 +90,66 @@
   <transparency>true</transparency>
 </coin>
 
+<fish>
+  <file>images/fish.png</file>
+  <startLoc x="400" y="400"/>
+  <frames>6</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</fish>
+
+<fishLeft>
+  <file>images/fishLeft.png</file>
+  <startLoc x="400" y="400"/>
+  <frames>6</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</fishLeft>
+
+<seagull>
+  <file>images/seagull.png</file>
+  <startLoc x="400" y="400"/>
+  <frames>9</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</seagull>
+
+<seagullLeft>
+  <file>images/seagullLeft.png</file>
+  <startLoc x="400" y="400"/>
+  <frames>9</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</seagullLeft>
+
+<tuna>
+  <file>images/tuna.png</file>
+  <startLoc x="200" y="200"/>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</tuna>
+
+<tunaLeft>
+  <file>images/tunaLeft.png</file>
+  <startLoc x="200" y="200"/>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</tunaLeft>
+
 <malloy>
   <file>images/malloy.png</file>
   <startLoc x="160" y="800"/>
@@ -104,46 +159,6 @@
   <speedY>200</speedY>
   <transparency>true</transparency>
 </malloy>
-
-<fish>
-  <file>images/fish.png</file>
-  <startLoc x="400" y="400"/>
-  <frames>6</frames>
-  <frameInterval>100</frameInterval>
-  <speedX>-200</speedX>
-  <speedY>200</speedY>
-  <transparency>true</transparency>
-</fish>
-
-<fishLeft>
-  <file>images/fishLeft.png</file>
-  <startLoc x="400" y="400"/>
-  <frames>6</frames>
-  <frameInterval>100</frameInterval>
-  <speedX>-200</speedX>
-  <speedY>200</speedY>
-  <transparency>true</transparency>
-</fishLeft>
-
-<tuna>
-  <file>images/tuna.png</file>
-  <startLoc x="200" y="200"/>
-  <frames>8</frames>
-  <frameInterval>100</frameInterval>
-  <speedX>-200</speedX>
-  <speedY>200</speedY>
-  <transparency>true</transparency>
-</tuna>
-
-<tunaLeft>
-  <file>images/tunaLeft.png</file>
-  <startLoc x="200" y="200"/>
-  <frames>8</frames>
-  <frameInterval>100</frameInterval>
-  <speedX>-200</speedX>
-  <speedY>200</speedY>
-  <transparency>true</transparency>
-</tunaLeft>
 
 <malloyLeft>
   <file>images/malloyLeft.png</file>
@@ -155,26 +170,10 @@
   <transparency>true</transparency>
 </malloyLeft>
 
-<star>
-  <file>images/yellowstar32.png</file>
-  <startLoc x="10" y="10"/>
-  <speedX>-175</speedX>
-  <speedY>-175</speedY>
-  <transparency>true</transparency>
-</star>
-
-<greenorb>
-  <file>images/greenball.bmp</file>
-  <startLoc x="320" y="240"/>
-  <speedX>175</speedX>
-  <speedY>175</speedY>
-  <transparency>true</transparency>
-</greenorb>
-
 <hud>
   <startLoc x="15" y="60"/>
   <width>200</width>
-  <height>140</height>
+  <height>170</height>
   <transparency>true</transparency>
 </hud>
 

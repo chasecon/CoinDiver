@@ -11,11 +11,11 @@
 // and must have.
 class Drawable {
 public:
-  Drawable(const std::string& n, const Vector2f& pos, const Vector2f& vel): 
-    name(n), position(pos), velocity(vel) {}
+  Drawable(const std::string& n, const Vector2f& pos, const Vector2f& vel, const float s): 
+    name(n), position(pos), velocity(vel), scale(s) {}
 
   Drawable(const Drawable& s) : 
-    name(s.name), position(s.position), velocity(s.velocity)
+    name(s.name), position(s.position), velocity(s.velocity), scale(s.scale)
     { }
 
   virtual ~Drawable() {}
@@ -43,10 +43,13 @@ public:
   void  setVelocity(const Vector2f& vel) { velocity = vel;  }
   const Vector2f& getPosition() const    { return position; }
   void  setPosition(const Vector2f& pos) { position = pos;  }
+    inline float getScale()const{ return scale; }
+  void  setScale(float s){ scale = s; }
 
 private:
   std::string name;
   Vector2f position;
   Vector2f velocity;
+  float scale;
 };
 #endif

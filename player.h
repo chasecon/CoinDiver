@@ -10,6 +10,7 @@ class Player : public TurningMultiSprite {
 public:
   Player(const std::string&);
   Player(const Player&);
+  Player(const std::string&,float vScale);
 
   //virtual void draw() const;
     virtual void draw() const;
