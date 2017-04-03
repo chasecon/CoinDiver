@@ -26,18 +26,27 @@ public:
 Engine::~Engine() { 
 
   std::cout << "Terminating program" << std::endl;
-
+  //std::vector<Drawable*>::iterator it = sprites.begin();
+  //while ( it != sprites.end() ) {
   for(auto it : sprites){
+   // std::cout << it << " , " << it->getName()<< " deleted" << std::endl;
     delete it;
+    //++it;
   }
   for(auto it : spritesBack){
+   // std::cout << it << " , " << it->getName()<< " deleted" << std::endl;
     delete it;
+    //++it;
   }
   for(auto it : spritesMiddle){
+   // std::cout << it << " , " << it->getName()<< " deleted" << std::endl;
     delete it;
+    //++it;
   }
   for(auto it : spritesFront){
+   // std::cout << it << " , " << it->getName()<< " deleted" << std::endl;
     delete it;
+    //++it;
   }
   //delete player;
   delete hud;

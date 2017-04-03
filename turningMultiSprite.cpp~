@@ -98,8 +98,6 @@ TurningMultiSprite::TurningMultiSprite( const std::string& name, float vScale) :
 TurningMultiSprite::TurningMultiSprite(const TurningMultiSprite& s) :
   Drawable(s), 
   frames(s.frames),
-  framesRight( s.framesRight ),
-  framesLeft( s.framesLeft),
   currentFrame(s.currentFrame),
   numberOfFrames( s.numberOfFrames ),
   frameInterval( s.frameInterval ),
